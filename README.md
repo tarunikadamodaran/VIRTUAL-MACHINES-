@@ -1,5 +1,6 @@
-# VIRTUAL-MACHINES-
-EX 6: MOVING FILES BETWEEN VIRTUAL MACHINES
+# VIRTUAL-MACHINES-EX 6: MOVING FILES BETWEEN VIRTUAL MACHINES
+# Name: TARUNIKA D
+# Register Number: 212223040227
 
 Aim:
 To move the files between virtual machine.
@@ -40,20 +41,24 @@ Step 2. Setup File Sharing on VirtualBox Guest Machine.
 
 2. Click the Add new shared folder icon.
  
-![image](https://github.com/user-attachments/assets/b7cb3277-4fce-4267-8916-04f94a41a2f8)
+<img width="983" height="641" alt="image" src="https://github.com/user-attachments/assets/b8072a07-8ae4-4e5b-9d1a-42200f3bc433" />
+
 
 3. Click the drop-down arrow and select Other.
  
-![image](https://github.com/user-attachments/assets/50268dcf-8b14-4592-9a69-439b0639db43)
+<img width="369" height="361" alt="image" src="https://github.com/user-attachments/assets/119ce507-c6c6-4a25-a22e-48b547af8fcb" />
+
 
 3. Locate and highlight (from the Host OS) the folder that you want to share between the VirtualBox Guest machine and the Host and click Select Folder. *
 * Note: To make your life easier, create a new folder for the file sharing, on the Host OS and give it with a recognizable name. (e.g. "Public")
  
-![image](https://github.com/user-attachments/assets/076d8f8f-93cc-478e-902b-8d3d0b1474e6)
+<img width="687" height="250" alt="image" src="https://github.com/user-attachments/assets/1d560bb8-70a8-40ac-ad4b-186c7b917c0d" />
+
 
 4. Now, in the 'Add Share' options, type a name (if you want) at the 'Folder Name box, click the Auto Mount and the Make Permanent checkboxes and click OK twice to close the Shared Folder Settings.
- 
-![image](https://github.com/user-attachments/assets/3f2c7dc1-5781-43e3-8e36-4e0706d603e0)
+
+<img width="359" height="319" alt="image" src="https://github.com/user-attachments/assets/db271d69-bd2d-4ab0-879b-60bc021b357c" />
+
 
 5. You 're done! To access the shared folder from the Guest OS, open Windows Explorer and under the 'Network locations' you should see a new network drive that corresponds to the shared folder on the Host OS.
 
